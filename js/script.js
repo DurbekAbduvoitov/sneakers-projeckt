@@ -211,7 +211,7 @@ mobilNextBtn.addEventListener('click' , () =>{
 tabParent.addEventListener('click' , (e) =>{
     for(let i = 0; i < tabParentContent.length + 1; i++) {
         if(e.target == tabParentContent[i - 1] && e.target.classList.contains('product-tape-img')){
-            currentSlide(i);
+            mobilCurrentSlide(i);
         }
     }
 });
